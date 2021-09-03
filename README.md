@@ -20,8 +20,8 @@ brew install hugo
 Next, clone this repository and run:
 
 ```bash
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 Then visit http://localhost:3000/ - BrowserSync will automatically reload CSS or

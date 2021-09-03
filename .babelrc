@@ -1,5 +1,9 @@
 {
-  "presets": ["es2015"],
+  "presets":[
+    '@babel/preset-react',
+    '@babel/preset-flow'
+  ],
+
   "plugins": [
     "syntax-object-rest-spread",
     "transform-object-rest-spread",
