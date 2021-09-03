@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
+  command = "gulp build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "npm run build-preview"
+  command = "gulp build-preview"
