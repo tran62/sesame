@@ -3,4 +3,5 @@
   publish = "dist"
 
 [context.deploy-preview]
-  command = "gulp build-preview"
+  command = "gulp build_preview"
+gulp
