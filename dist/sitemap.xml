@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sesamic-archimedes.netlify.app/secret/access-denied/</loc>
+  </url><url>
+    <loc>https://sesamic-archimedes.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://sesamic-archimedes.netlify.app/pages/</loc>
+  </url><url>
+    <loc>https://sesamic-archimedes.netlify.app/secret/</loc>
+  </url><url>
+    <loc>https://sesamic-archimedes.netlify.app/</loc>
+  </url><url>
+    <loc>https://sesamic-archimedes.netlify.app/tags/</loc>
+  </url>
+</urlset>
