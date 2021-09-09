@@ -1,9 +1,10 @@
 {{ partial "header" . }}
 
-<h1>Access allowed!</h1>
+<h1>{{ .Page.Title }}</h1>
+<h2>Public accessible page</h2>
 
 <p>You have access to this page</p>
-
+<button class="login-button" >Login button!</button>
 <p><a href="/secret/">To secret page</a></p>
 <p><a href="/pub/">To public page</a></p>
 <p><a href="/">Back to login</a></p>
