@@ -1,12 +1,13 @@
 {{ partial "header" . }}
 
-<h1>{{ .Page.Title }}</h1>
-<h2>Public accessible page</h2>
+<h1>{{ .Site.Title }}</h1>
+<h2>{{ .Page.Title }}</h2>
 
 <p>You have access to this page</p>
 <button class="login-button" >Login button!</button>
 <p><a href="/secret/">To secret page</a></p>
 <p><a href="/pub/">To public page</a></p>
+<p><a href="/pub/1/">To another public page</a></p>
 <p><a href="/">Back to login</a></p>
 
 {{ partial "footer" . }}

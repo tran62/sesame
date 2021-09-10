@@ -1,7 +1,7 @@
 ---
-title: Public Page 1
+title: Another secret page
 layout: pub
-url: /pub/one/
+url: /pub/1
 ---
 
 public page 1 here

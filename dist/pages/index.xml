@@ -17,11 +17,20 @@
     
     <item>
       <title>Another Secret Page</title>
-      <link>https://sesamic-archimedes.netlify.app/secret/one/</link>
+      <link>https://sesamic-archimedes.netlify.app/secret/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sesamic-archimedes.netlify.app/secret/one/</guid>
+      <guid>https://sesamic-archimedes.netlify.app/secret/1/</guid>
       <description>secret 1</description>
+    </item>
+    
+    <item>
+      <title>Another secret page</title>
+      <link>https://sesamic-archimedes.netlify.app/pub/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sesamic-archimedes.netlify.app/pub/1/</guid>
+      <description>public page 1 here</description>
     </item>
     
     <item>
@@ -31,15 +40,6 @@
       
       <guid>https://sesamic-archimedes.netlify.app/pub/</guid>
       <description>public page here</description>
-    </item>
-    
-    <item>
-      <title>Public Page 1</title>
-      <link>https://sesamic-archimedes.netlify.app/pub/one/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sesamic-archimedes.netlify.app/pub/one/</guid>
-      <description>public page 1 here</description>
     </item>
     
     <item>
