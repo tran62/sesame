@@ -19,7 +19,21 @@
 <p><a href="/secret/1/">An another secret page</a></p>
 <p><a href="/pub/">A public page</a></p>
 <p><a href="/pub/1/">An another public page</a></p>
-
+<div class="hidden" id="gated-content">
+<button class="logout-button" >Logout here!</button>
+    <p>
+      You're seeing this content because you're currently
+      <strong>logged in</strong>.
+    </p>
+    <label>
+      Access token:
+      <pre id="ipt-access-token"></pre>
+    </label>
+    <label>
+      User profile:
+      <pre id="ipt-user-profile"></pre>
+    </label>
+  </div>
 
      <script src="/app.js"></script>
    </body>
