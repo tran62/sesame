@@ -1,10 +1,13 @@
 {{ partial "header" . }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
-
+<h1>{{ .Title }}</h1>
+<h3> Hugo-Auth0-Gulp Home page</h3>
 <button class="login-button" >Login now!</button>
-
+<button class="logout-button" >Logout here!</button>
 <p>Go to <a href="/secret/">A secret page</a></p>
-<p>Go to <a href="/secret/one/">A another secret page</a></p>
-<p><a href="/pub/">To public page</a></p>
+<p>Go to <a href="/secret/one/">An another secret page</a></p>
+<p><a href="/pub/">To a public page</a></p>
+<p><a href="/pub/">An another public page</a></p>
+<p><a href="/">Back to login</a></p>
+
 {{ partial "footer" . }}
