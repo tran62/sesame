@@ -80,9 +80,9 @@ function genJS(cb) {
   });
 } */
 function genJS() {
-  return src("./src/js/app.js")
+  return src("./src/app.js")
     .pipe(webpackStream(webpackConfig), webpack)
-    .pipe(dest("./dist/js"))
+    .pipe(dest("./dist"))
     .pipe(browserSync.stream());
 }
 exports.js = genJS;
@@ -99,7 +99,7 @@ gulp.task("server", ["hugo", "css", "js"], () => {
 //  gulp.watch("./site/**/*", ["hugo"]);
 //});
 exports.server = function(){
-  watch("./src/js/**/*.js", genJS);
+  watch("./src/**/*.js", genJS);
   watch("./src/css/**/*.css", genCSS);
   watch("./site/**/*", buildSite);
   browserSync.init({
