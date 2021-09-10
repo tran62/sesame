@@ -1,7 +1,7 @@
+# global context
 [build]
-  command = "gulp build"
   publish = "dist"
-
+  command = "gulp build"
+# build a preview (optional)
 [context.deploy-preview]
   command = "gulp build_preview"
-gulp
