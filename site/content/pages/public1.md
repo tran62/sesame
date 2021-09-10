@@ -1,5 +1,5 @@
 ---
-title: Another secret page
+title: Another Public Page
 layout: pub
 url: /pub/1
 ---
