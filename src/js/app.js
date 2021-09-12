@@ -1,10 +1,10 @@
 import Auth0Lock from "auth0-lock";
 import cookies from "cookies-js";
 
-const clientID = "0WTqJzKPJIKc13PlgoLN9lVRz0gwRgh9"; // QAspa
-//const clientID = "RMKbC7kVJ4K7Vj0FmovWZI05bQGlBf3w"; // HugoAscii
-const domain = "dev-s617mzw4.eu.auth0.com"; // QAspa
-//const domain = "dev-s617mzw4.eu.auth0.com"; // hugoascii
+//const clientID = "0WTqJzKPJIKc13PlgoLN9lVRz0gwRgh9"; // QAspa
+const clientID = "RMKbC7kVJ4K7Vj0FmovWZI05bQGlBf3w"; // HugoAscii
+const domain = "dev-s617mzw4.eu.auth0.com"; // same for sesamic ReactjsPA
+
 const lock = new Auth0Lock(clientID, domain, {auth: {
   params: {scope: "openid email user_metadata app_metadata picture"},
 }});
