@@ -1,5 +1,5 @@
 node_modules/
-#dist/
+dist/
 gulp-helloworld/
 gulpfile-v3.babel.js
 README.gulp-3to4.md
