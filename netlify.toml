@@ -5,3 +5,15 @@
 # build a preview (optional)
 [context.deploy-preview]
   command = "gulp build_preview"
+
+[[redirects]]
+from = "/secret/*"
+force = true
+status = 200
+conditions = {Role=["member"],["admin"],["client"]}
+
+[[redirects]]
+from = "/secret/*"
+to = "/"
+force = true
+status = 302

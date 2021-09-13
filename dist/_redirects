@@ -1,2 +1,3 @@
-/secret/* /secret/index.html 200! Role=member,admin
+/secret/* /secret/index.html 200! Role=member
 /secret/* /secret/access-denied/ 200!
+/secret/* / 302!
