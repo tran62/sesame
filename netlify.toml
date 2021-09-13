@@ -10,7 +10,7 @@
 from = "/secret/*"
 force = true
 status = 200
-conditions = {Role=["member"],["admin"],["client"]}
+conditions = {Role=["member","admin","client"]}
 
 [[redirects]]
 from = "/secret/*"
