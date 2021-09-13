@@ -14,6 +14,6 @@ conditions = {Role=["member","admin","client"]}
 
 [[redirects]]
 from = "/secret/*"
-to = "/"
+to = "/secret/denied/index.html"
 force = true
-status = 302
+status = 200
